@@ -1,0 +1,82 @@
+
+
+
+
+.container{
+    background: #37474F;
+    display: flex;
+    
+}
+
+.content{
+
+    max-width: 764px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 97px 18px;
+
+}
+
+.title{
+
+font-family: 'Barracuda';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 60px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-bottom: 50px;
+
+
+}
+
+.questions{
+    margin-bottom: 25px;
+}
+
+.btn{
+    margin: 0 auto;
+}
+
+@media (min-width: 769px) {
+    .container{
+        background-image: url('../../../assets/decorations/zebra19019.png'),
+        url('../../../assets/decorations/decor588.png'),
+        url('../../../assets/decorations/decor595.png'),
+        url('../../../assets/decorations/decor594.png');
+          
+        background-position: 100% -5%, 4% 58%, 87% 50%, 99% 62%;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        /* background-attachment: fixed, fixed, fixed, fixed; */
+    }
+
+
+    .title {
+        font-size: 72.5px;
+        line-height: 78px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title {
+        font-size: 90px;
+        line-height: 98px;
+    }
+
+    .questions{
+        margin-bottom: 189px;
+    }
+}
+
+
+
+@media (min-width: 1440px){
+    .content{
+        padding: 153px 338px;
+    }
+}

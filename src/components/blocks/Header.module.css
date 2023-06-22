@@ -1,0 +1,139 @@
+
+.container{
+   
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #B0BEC5;
+   position: sticky;
+   top: 0px;
+   z-index: 6;
+    
+}
+
+
+.navMobile{
+   
+    max-width: 100%;
+    padding: 48px 18px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #B0BEC5;
+}
+
+.burgerButton{
+    border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.navDesktop{
+    
+    max-width: 1200px;
+    margin: 0px auto;
+    
+    display: none;
+    justify-content: space-between;
+    padding: 16px 68px;
+    align-items: center;
+    
+    
+}
+.navbar-items{
+    display: flex;
+}
+
+.item{
+    color: #37474F;
+    text-decoration: none;
+    font-family: 'Mosk', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 32px;
+
+    position: relative;
+
+}
+
+
+.item:nth-last-child(1){
+    margin-right: 0px;
+}
+
+.item:hover::after{
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    bottom: -6px;
+    width: 100%; 
+    height: 1px; 
+    background-color:#37474F;
+}
+
+.item:active{
+    color: #17A08E;
+}
+.item:active::after{
+    content: ''; 
+    position: absolute; 
+    left: 0; 
+    bottom: -6px;
+    width: 100%; 
+    height: 1px; 
+    background-color:#17A08E;
+}
+
+.buttons{
+    max-width: 280px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.btn{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    height: 45px;
+    width: 130px;
+ 
+    background: #17A08E;
+    border-radius: 8px;
+    font-family: 'Mosk', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #FAFAFA;
+}
+
+/* .buttonItem:nth-last-child(1){
+    margin-left: 20px;
+    
+} */
+
+
+
+@media (min-width: 1000px) {
+    .navMobile{
+        display: none;
+    }
+    .navDesktop{
+        display: flex;
+        
+    }
+    }
+
+    @media (min-width: 1200px){
+        .navDesktop{
+            display: flex;
+            
+        }
+    }

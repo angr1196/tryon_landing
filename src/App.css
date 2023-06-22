@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Mosk';
+  src: url('./assets/fonts/MoskNormal.eot');
+  src: url('./assets/fonts/MoskNormal.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/MoskNormal.woff2') format('woff2'),
+      url('./assets/fonts/MoskNormal.woff') format('woff'),
+      url('./assets/fonts/MoskNormal.ttf') format('truetype'),
+      url('./assets/fonts/MoskNormal.svg#MoskNormal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Barracuda';
+  src: url('./assets/fonts/Barracuda-regular.eot');
+  src: url('./assets/fonts/Barracuda-regular.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/Barracuda-regular.woff2') format('woff2'),
+      url('./assets/fonts/Barracuda-regular.woff') format('woff'),
+      url('./assets/fonts/Barracuda-regular.ttf') format('truetype'),
+      url('./assets/fonts/Barracuda-regular.svg#Barracuda-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+
+.App {
+ 
+  text-align: center;
+}
+
+
+
+
+
+

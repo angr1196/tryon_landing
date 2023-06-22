@@ -1,0 +1,213 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #FFFFFF;
+
+    background-image: url('../../assets/decorations/contact3.png'),
+    url('../../assets/decorations/contact1.png'),
+    url('../../assets/decorations/contact2.png');
+   
+        background-position: 0% 5%, 99% 65%, 100% 90%;
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        
+
+     
+
+
+}
+
+.content {
+
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 143px 18px 0px;
+    justify-content: space-between;
+
+}
+
+
+
+.contactBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contactTitle {
+    font-family: 'Barracuda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 60px;
+    text-transform: uppercase;
+
+    color: #37474F;
+
+    margin-bottom: 26px;
+}
+
+.contactForm {
+
+
+    width: 100%;
+
+    margin-bottom: 7px;
+}
+
+.contactForm div {
+    width: 100%;
+    margin-bottom: 28px;
+    border: none;
+}
+
+.contactForm div:nth-last-child(2) {
+    margin-bottom: 35px;
+}
+
+.contactInput {
+
+    background: #FAFAFA;
+    width: 100%;
+    padding: 16px;
+
+    border: 1px solid #B0BEC5;
+    border-radius: 16px;
+    box-sizing: border-box;
+
+
+    font-family: 'Mosk';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 100%;
+    color: #37474F;
+
+}
+
+.contactInput::placeholder{
+     color: #CFD8DC;;
+}
+
+.contactInput:hover {
+    background: #F5F5F5;
+    border: 1px solid #78909C
+}
+
+.contactInput:focus {
+    outline: none;
+    background: linear-gradient(0deg, rgba(236, 239, 241, 0.4), rgba(236, 239, 241, 0.4)),#FAFAFA;;
+    border: 1px solid #29B6F6;
+}
+
+.error{
+    color: red;
+    font-family: 'Mosk';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+
+}
+
+
+.inputMessage {
+    height: 172px;
+}
+
+.contactImage {
+    width: 100%;
+    max-width: 600px;
+}
+
+@media (min-width: 769px) {
+    .content {
+        padding: 143px 68px 0px;
+    }
+
+    .contactTitle {
+        font-size: 72.5px;
+        line-height: 78px;
+    }
+
+    .contactForm {
+
+        max-width: 700px;
+
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .container{
+        background-image: url('../../assets/decorations/contact6.png'),
+        url('../../assets/decorations/contact7.png');
+       
+       
+            background-position: 100% 100%, 70% 123%;
+            background-repeat: no-repeat, no-repeat;
+    }
+
+    .content {
+        flex-direction: row-reverse;
+        margin: 0 auto;
+        padding: 30px 0px 0px;
+
+    }
+
+    .contactBlock {
+        width: 46.5%;
+        padding-right: 18px;
+
+    }
+
+  
+
+    .contactImage {
+        width: 53.5%;
+        max-width: none;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+
+    .container{
+        
+            background-image: url('../../assets/decorations/contact4.png'),
+            url('../../assets/decorations/contact5.png'),
+            url('../../assets/decorations/contact6.png'),
+            url('../../assets/decorations/contact7.png');
+            background-position: 100% 5%, 100% 45%, 100% 100%, 70% 123%;
+            background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    }
+
+    .content {
+        padding-right: 172px;
+    }
+
+
+    .contactForm {
+
+        max-width: 480px;
+
+    }
+
+  
+
+}
+
+@media (min-width: 1285px) {
+    .contactTitle {
+        font-size: 90px;
+        line-height: 98px;
+
+        margin-bottom: 50px;
+    }
+
+}

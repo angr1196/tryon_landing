@@ -1,0 +1,59 @@
+
+    
+/* .btnWrapper {
+    text-decoration: none;
+} */
+
+.btn{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    height: 45px;
+    width: 130px;
+ 
+    background: #17A08E;
+    border-radius: 8px;
+    font-family: 'Mosk', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration:none;
+    color: #FAFAFA;
+}
+
+
+
+.btnWhite{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+
+    height: 45px;
+    width: 130px;
+ 
+    background: #FFFFFF;
+    border: 1px solid #17A08E;;
+    border-radius: 8px;
+
+    font-family: 'Mosk', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #17A08E;
+}
+
