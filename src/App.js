@@ -1,26 +1,28 @@
 
 import { useState } from 'react';
 import './App.css';
-import BurgerNav from './components/blocks/BurgerNav';
-import ContactUsBlock from './components/blocks/ContactUsBlock';
-import DescriptionBlock from './components/blocks/DescriptionBlock';
-import Header from './components/blocks/Header';
-import IntroBlock from './components/blocks/IntroBlock';
-import RoadmapBlock from './components/blocks/RoadmapBlock';
-import TokenomicsBlock from './components/blocks/TokenomicsBlock';
+import BurgerNav from './components/blocks/Header/BurgerNav';
+import ContactUsBlock from './components/blocks/ContactUsBlock/ContactUsBlock';
+import DescriptionBlock from './components/blocks/DescriptionBlock/DescriptionBlock';
+import Header from './components/blocks/Header/Header';
+import IntroBlock from './components/blocks/IntroBlock/IntroBlock';
+import RoadmapBlock from './components/blocks/RoadmapBlock/RoadmapBlock';
+import TokenomicsBlock from './components/blocks/TokenomicsBlock/TokenomicsBlock';
 import FaqBlock from './components/blocks/FaqBlock/FaqBlock';
-import Footer from './components/blocks/Footer';
+import Footer from './components/blocks/Footer/Footer';
 
 function App() {
 
   const [navIsOpen, setIsOpen] = useState(false);
 
   const openHandler = () => {
+    document.body.style.overflow = 'hidden';
       setIsOpen(true);
 
   }
 
   const closeHandler = () => {
+    document.body.style.overflow = 'unset'
     setIsOpen(false);
 
 }
@@ -28,8 +30,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header onOpen={openHandler}/>
-      {navIsOpen && <BurgerNav onClose={closeHandler}/>}
+      {/* {navIsOpen&&<div className='backdrop'></div>} */}
+      <Header navIsOpen={navIsOpen} onClose={closeHandler} onOpen={openHandler}/>
+      {/* {navIsOpen && <BurgerNav onClose={closeHandler}/>} */}
       <IntroBlock/>
       <DescriptionBlock/>
       <TokenomicsBlock/>

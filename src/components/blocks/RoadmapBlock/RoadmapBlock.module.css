@@ -1,20 +1,16 @@
 .container {
-    background-color: #37474F;
     display: flex;
-
-    background-image: url('../../assets/decorations/BGroadmap1.png'),
-        url('../../assets/decorations/BGroadmap2.png'),
-        url('../../assets/decorations/BGroadmap2.png'),
-        url('../../assets/decorations/BGroadmap3.png'),
-        url('../../assets//decorations/BGroadmap4.png');
+    background-color: #37474F;
+    background-image: url('../../../assets/decorations/BGroadmap1.png'),
+        url('../../../assets/decorations/BGroadmap2.png'),
+        url('../../../assets/decorations/BGroadmap2.png'),
+        url('../../../assets/decorations/BGroadmap3.png'),
+        url('../../../assets//decorations/BGroadmap4.png');
     background-position: 0% -11%, 108% 15%, 80% 88%, -6% 96%, 72% -5%;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-    /* background-attachment: fixed, fixed, fixed, fixed; */
-
 }
 
 .content {
-
     overflow-x: auto;
     white-space: nowrap;
 
@@ -25,13 +21,9 @@
     max-width: 1200px;
     max-width: 1200px;
     padding: 130px 18px 145px;
-
-    /* margin: 0px auto; */
-
 }
 
 .title {
-
     font-family: 'Barracuda';
     font-style: normal;
     font-weight: 400;
@@ -54,7 +46,6 @@
 .periodItem {
     display: flex;
     flex-direction: column;
-
     margin-right: 37px;
 }
 
@@ -92,10 +83,6 @@
     align-items: center;
 }
 
-/* .rmZebra{
-    
-} */
-
 .rmLine {
     width: 100%;
     height: 3px;
@@ -103,8 +90,6 @@
 }
 
 @media (min-width: 769px) {
-   
-
     .title {
         max-width: 100%;
         font-size: 72.5px;
@@ -113,36 +98,32 @@
 }
 
 @media (min-width: 1024px) {
-   
-.content{
-    margin: 0 auto;
-}
+    .content {
+        margin: 0 auto;
+    }
+
     .title {
-       
         font-size: 90px;
         line-height: 98px;
     }
 }
 
-@media (min-width: 1360px){
+@media (min-width: 1360px) {
     .container {
-       
-        background-image: 
-            url('../../assets/decorations/BGroadmap2.png'),
-            url('../../assets/decorations/BGroadmap2.png'),
-            url('../../assets/decorations/BGroadmap3.png'),
-            url('../../assets//decorations/BGroadmap4.png'),
-            url('../../assets//decorations/BGroadmap4.png'),
-            url('../../assets//decorations/BGroadmap5.png'),
-            url('../../assets//decorations/BGroadmap6.png'),
-            url('../../assets//decorations/BGroadmap7.png');
+        background-image:
+            url('../../../assets/decorations/BGroadmap2.png'),
+            url('../../../assets/decorations/BGroadmap2.png'),
+            url('../../../assets/decorations/BGroadmap3.png'),
+            url('../../../assets//decorations/BGroadmap4.png'),
+            url('../../../assets//decorations/BGroadmap4.png'),
+            url('../../../assets//decorations/BGroadmap5.png'),
+            url('../../../assets//decorations/BGroadmap6.png'),
+            url('../../../assets//decorations/BGroadmap7.png');
         background-position: 63% 28%, 25% 95%, -6% 96%, 45% 10%, 85% -5%, 0% 10%, 100% 28%, 40% 120%;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-        /* background-attachment: fixed, fixed, fixed, fixed; */
-    
     }
-   .content{ 
-    padding: 190px 120px;
-   }
 
+    .content {
+        padding: 190px 120px;
+    }
 }

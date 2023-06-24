@@ -3,16 +3,12 @@
     justify-content: center;
     background-color: #FFFFFF;
 
-    background-image: url('../../assets/decorations/contact3.png'),
-    url('../../assets/decorations/contact1.png'),
-    url('../../assets/decorations/contact2.png');
-   
-        background-position: 0% 5%, 99% 65%, 100% 90%;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        
+    background-image: url('../../../assets/decorations/contact3.png'),
+        url('../../../assets/decorations/contact1.png'),
+        url('../../../assets/decorations/contact2.png');
 
-     
-
+    background-position: 0% 5%, 99% 65%, 100% 90%;
+    background-repeat: no-repeat, no-repeat, no-repeat;
 
 }
 
@@ -53,10 +49,7 @@
 }
 
 .contactForm {
-
-
     width: 100%;
-
     margin-bottom: 7px;
 }
 
@@ -90,8 +83,9 @@
 
 }
 
-.contactInput::placeholder{
-     color: #CFD8DC;;
+.contactInput::placeholder {
+    color: #CFD8DC;
+    ;
 }
 
 .contactInput:hover {
@@ -101,11 +95,12 @@
 
 .contactInput:focus {
     outline: none;
-    background: linear-gradient(0deg, rgba(236, 239, 241, 0.4), rgba(236, 239, 241, 0.4)),#FAFAFA;;
+    background: linear-gradient(0deg, rgba(236, 239, 241, 0.4), rgba(236, 239, 241, 0.4)), #FAFAFA;
+    ;
     border: 1px solid #29B6F6;
 }
 
-.error{
+.error {
     color: red;
     font-family: 'Mosk';
     font-style: normal;
@@ -135,21 +130,19 @@
     }
 
     .contactForm {
-
         max-width: 700px;
-
     }
 }
 
 @media (min-width: 1024px) {
 
-    .container{
-        background-image: url('../../assets/decorations/contact6.png'),
-        url('../../assets/decorations/contact7.png');
-       
-       
-            background-position: 100% 100%, 70% 123%;
-            background-repeat: no-repeat, no-repeat;
+    .container {
+        background-image: url('../../../assets/decorations/contact6.png'),
+            url('../../../assets/decorations/contact7.png');
+
+
+        background-position: 100% 100%, 70% 123%;
+        background-repeat: no-repeat, no-repeat;
     }
 
     .content {
@@ -165,7 +158,7 @@
 
     }
 
-  
+
 
     .contactImage {
         width: 53.5%;
@@ -177,14 +170,13 @@
 
 @media (min-width: 1200px) {
 
-    .container{
-        
-            background-image: url('../../assets/decorations/contact4.png'),
-            url('../../assets/decorations/contact5.png'),
-            url('../../assets/decorations/contact6.png'),
-            url('../../assets/decorations/contact7.png');
-            background-position: 100% 5%, 100% 45%, 100% 100%, 70% 123%;
-            background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    .container {
+        background-image: url('../../../assets/decorations/contact4.png'),
+            url('../../../assets/decorations/contact5.png'),
+            url('../../../assets/decorations/contact6.png'),
+            url('../../../assets/decorations/contact7.png');
+        background-position: 100% 5%, 100% 45%, 100% 100%, 70% 123%;
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
     }
 
     .content {
@@ -193,12 +185,10 @@
 
 
     .contactForm {
-
         max-width: 480px;
-
     }
 
-  
+
 
 }
 
@@ -206,7 +196,6 @@
     .contactTitle {
         font-size: 90px;
         line-height: 98px;
-
         margin-bottom: 50px;
     }
 

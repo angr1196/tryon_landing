@@ -1,16 +1,16 @@
 import styles from './RoadmapBlock.module.css'
-import decor1 from '../../assets/decorations/decor1.png'
+import decor1 from '../../../assets/decorations/decor1.png'
 
 
 const RoadmapBlock = () => {
 
 
     return (
-        <div id='roadmap'className={styles.container}>
+        <section id='roadmap' className={styles.container}>
             <div className={styles.content}>
-                <div className={styles.title}>
+                <h2 className={styles.title}>
                     roadmap
-                </div>
+                </h2>
                 <div className={styles.periodBlock}>
                     <div className={styles.periodItem}>
                         <div className={styles.periodTitle}>
@@ -55,22 +55,16 @@ const RoadmapBlock = () => {
                             <li>Promotional campaign for public</li>
                         </ul>
                     </div>
-
                 </div>
                 <div className={styles.rmLineBlock}>
                     <div>
                         <img className={styles.rmZebra} src={decor1} alt="#" />
                     </div>
                     <div className={styles.rmLine}>
-
                     </div>
-
                 </div>
-
-
             </div>
-
-        </div>
+        </section>
     )
 
 }

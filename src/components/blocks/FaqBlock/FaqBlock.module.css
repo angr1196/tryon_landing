@@ -5,11 +5,9 @@
 .container{
     background: #37474F;
     display: flex;
-    
 }
 
 .content{
-
     max-width: 764px;
     margin: 0 auto;
     display: flex;
@@ -17,11 +15,9 @@
     align-items: center;
     justify-content: center;
     padding: 97px 18px;
-
 }
 
 .title{
-
 font-family: 'Barracuda';
 font-style: normal;
 font-weight: 400;
@@ -31,8 +27,6 @@ text-transform: uppercase;
 
 color: #FFFFFF;
 margin-bottom: 50px;
-
-
 }
 
 .questions{

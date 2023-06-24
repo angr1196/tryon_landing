@@ -1,32 +1,27 @@
 .container {
     background-color: #37474F;
-    background-image: url('../../assets/decorations/description1.png'), 
-    url('../../assets/decorations/description2.png'), 
-    url('../../assets/decorations/description3.png') ;
+    background-image: url('../../../assets/decorations/description1.png'),
+        url('../../../assets/decorations/description2.png'),
+        url('../../../assets/decorations/description3.png');
     background-position: 100% 97%, 0% 93%, 91% 40%;
     background-repeat: no-repeat, no-repeat, no-repeat;
-    
-    
+
     display: flex;
 }
 
 .content {
-
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     padding: 85px 18px 100px 18px;
-
 }
 
 .imageWrapper {
-
     margin-left: 55px;
 }
 
 .image {
-
     width: 100%;
     max-width: 450px;
     margin: 0 auto;
@@ -34,18 +29,14 @@
 }
 
 .description {
-
     width: 100%;
-
     display: flex;
     flex-direction: column;
-
     margin-bottom: 32px;
 
 }
 
 .descriptionTitle {
-
     font-family: 'Barracuda';
     font-style: normal;
     font-weight: 400;
@@ -60,21 +51,16 @@
 }
 
 .descriptionText {
-
     font-family: 'Mosk';
     font-weight: 500;
     font-size: 18px;
     line-height: 140%;
-
     color: #FFFFFF;
-
     text-align: left;
-
     margin-bottom: 36px;
-
 }
 
-.btn{
+.btn {
     border: none;
     background: none;
     padding: 0;
@@ -83,11 +69,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
 
     height: 45px;
     width: 130px;
- 
+
     background: #17A08E;
     border-radius: 8px;
     font-family: 'Mosk', sans-serif;
@@ -101,28 +86,30 @@
 
 
 @media (min-width: 768px) {
-    .content{
+    .content {
         padding: 85px 68px 100px 68px;
     }
+
     .descriptionTitle {
         font-size: 72.5px;
         line-height: 72.5px;
     }
-    .image{
+
+    .image {
         max-width: 321px;
     }
 }
 
-@media (min-width: 890px){
+@media (min-width: 890px) {
 
     .container {
-        background-image: url('../../assets/decorations/description1.png'), 
-        url('../../assets/decorations/description2.png'), 
-        url('../../assets/decorations/description3.png'), 
-        url('../../assets/decorations/description4.png') ;
+        background-image: url('../../../assets/decorations/description1.png'),
+            url('../../../assets/decorations/description2.png'),
+            url('../../../assets/decorations/description3.png'),
+            url('../../../assets/decorations/description4.png');
         background-position: 100% 97%, 40% 35%, 2% 15%, 1% 125%;
         background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-        
+
     }
 
     .content {
@@ -132,11 +119,9 @@
         flex-direction: row-reverse;
         justify-content: space-between;
         align-items: center;
-       
-    
     }
 
-    .image{
+    .image {
         max-width: 321px;
         margin: 0 0;
         float: left;
@@ -151,18 +136,18 @@
         margin-bottom: 50px;
         font-size: 90px;
         line-height: 98px;
-    
+
     }
 
     .descriptionText {
         margin-bottom: 50px;
-    
+
     }
 
 }
 
-@media (min-width: 1200px){
-    .content{
+@media (min-width: 1200px) {
+    .content {
         max-width: 1200px;
         padding: 80px 180px;
     }

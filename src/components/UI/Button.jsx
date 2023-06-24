@@ -4,7 +4,8 @@ const Button = (props) => {
 
     return (
         <div >
-            <a className={props.color === 'white' ? styles.btnWhite : styles.btn} href={props.href}>
+            <a className={props.color === 'white' ? styles.btnWhite : styles.btn} href={props.href} 
+            onClick={props.onClick}>
                 {props.buttonText}
             </a>
 

@@ -9,7 +9,6 @@ const Questionform =(props)=>{
             {props.itemsList.map(item=> <QuestionItem key={item.id} 
             question={item.question} 
             answer={item.answer}/>)}
-            
         </div>
     )
 }

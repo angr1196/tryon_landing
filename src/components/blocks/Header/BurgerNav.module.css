@@ -1,27 +1,32 @@
+.wrapp {
+    background-color: #FFFFFF;
+
+    position: absolute;
+    top: 23px;
+    right: 18px;
+
+    width: 215px;
+    display: flex;
+
+    /* padding: 29px 43px;  */
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+}
+
 .container {
-    
     width: 100%;
     display: flex;
     flex-direction: column;
-
-    padding: 29px 30px; 
-
-    /* padding: 38px 42px 30px; */
-    /* padding-bottom: 30px; */
-
-
+    padding: 29px 30px;
 }
 
 .closeBlock {
     display: flex;
     justify-content: space-between;
-    
     margin-bottom: 38px;
-   
-
 }
 
-.burgerLogo{
+.burgerLogo {
     width: 89px;
 }
 
@@ -36,9 +41,6 @@
     flex-direction: column;
     padding: 0 13px;
     margin-bottom: 13px;
-
-
-
 }
 
 .navBlock a {
@@ -53,11 +55,16 @@
     margin-bottom: 32px;
 }
 
-.whiteButton{
+.whiteButton {
     margin-bottom: 20px;
 }
 
-
-.buttonsBlock{
+.buttonsBlock {
     padding: 0 13px;
+}
+
+@media (min-width: 769px) {
+    .wrapp {
+        right: 45px;
+    }
 }

@@ -38,20 +38,19 @@ const FAQList = [
 const FaqBlock = () => {
 
     return (
-        <div id='faq' className={styles.container}>
+        <section id='faq' className={styles.container}>
             <div className={styles.content}>
-                <div className={styles.title}>
+                <h2 className={styles.title}>
                     FAQ
-                </div>
+                </h2>
                 <div className={styles.questions}>
                     <Questionform itemsList={FAQList} />
                 </div>
                 <div className={styles.btn}>
-                    <Button buttonText={'Show more'}/>
+                    <Button buttonText={'Show more'} />
                 </div>
-
             </div>
-        </div>
+        </section>
     )
 }
 

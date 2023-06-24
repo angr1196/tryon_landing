@@ -1,13 +1,11 @@
-
-
-.tokenomicsSection{
+.tokenomicsSection {
     width: 100%;
     background-color: #FFFFFF;
     position: relative;
     display: flex;
 }
 
-.bg{
+.bg {
     position: absolute;
     overflow: hidden;
     width: 100%;
@@ -16,80 +14,81 @@
     bottom: 0;
     right: 0;
     left: 0;
-    
-} 
-
-.decor1{
-position:absolute;
-top: -5%;
-right: 20px;
 }
-.decor2{
+
+.decor1 {
+    position: absolute;
+    top: -5%;
+    right: 20px;
+}
+
+.decor2 {
     position: absolute;
     top: 28%;
     left: -50px;
 }
-.decor3{
+
+.decor3 {
     position: absolute;
     top: 31%;
     right: -22px;
 }
-.decor4{
+
+.decor4 {
     position: absolute;
     top: 39%;
     left: 40px;
 }
-.decor5{
+
+.decor5 {
     position: absolute;
     top: 45%;
     left: 0px;
 }
-.decor6{
+
+.decor6 {
     position: absolute;
     bottom: 26%;
     left: -3px;
 }
-.decor7{
+
+.decor7 {
     position: absolute;
     bottom: 0px;
     left: 0px;
 }
-.decor8{
+
+.decor8 {
     position: absolute;
     bottom: 0px;
     right: 0px;
 }
-.decor9{
+
+.decor9 {
     display: none;
 }
-.decor10{
+
+.decor10 {
     display: none;
 }
-.decor11{
+
+.decor11 {
     display: none;
 }
 
 .content {
-   
+
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    /* box-sizing: border-box; */
-    
     padding: 85px 18px 100px;
-    
+
     flex-direction: column;
     overflow: hidden;
- 
-    
-    
 }
 
 .title {
-
-    /* width: 533px;
-    height: 98px; */
     text-align: center;
     margin: 0px auto;
 
@@ -104,32 +103,20 @@ right: 20px;
 }
 
 .topBlock {
-    
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     position: relative;
     overflow: visible;
     margin-bottom: 50px;
-   
-
-
-    /* max-width: 407px;
-    height: 290px;
-    margin-top: 115px;
-    margin-left: 50px;
-    ;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
 }
 
-.topBlockDescription{
-  
+.topBlockDescription {
+
     display: flex;
     flex-direction: column;
- 
-    
+
+
 }
 
 
@@ -143,7 +130,8 @@ right: 20px;
     text-transform: uppercase;
     text-align: left;
     color: #37474F;
-    margin-bottom: 24px;;
+    margin-bottom: 24px;
+    ;
 }
 
 .topBlockText {
@@ -161,19 +149,19 @@ right: 20px;
 /* .topImageWrapper{
     position: relative;
 } */
-.topBlockImage{
+.topBlockImage {
     position: relative;
     left: 80px;
-    top:-28px;
+    top: -28px;
     /* margin: -40px;
     padding-top: 10px;
     padding-left: 140px; */
-   
+
     width: 100%;
 }
 
-.bottomBlock{
-    
+.bottomBlock {
+
     display: flex;
     flex-direction: column;
 }
@@ -187,153 +175,168 @@ right: 20px;
 }
 
 
-.bottomBlockText{
+.bottomBlockText {
     font-family: 'Mosk';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 22px;
-text-align: left;
-color: #546E7A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: #546E7A;
 
-margin-bottom: 24px;
+    margin-bottom: 24px;
 }
 
-.bottomBlockImage{
+.bottomBlockImage {
     margin: 0 auto;
     width: 100%;
     max-width: 542px;
 }
 
 @media (min-width: 769px) {
-    .content{
+    .content {
         padding: 85px 68px 135px;
         /* padding: 85px 18px 135px; */
     }
 
-    
+
     .title {
         max-width: 100%;
         font-size: 72.5px;
         line-height: 72.5px;
     }
 
-    .paragraphTitle{
-        
-    font-size: 36px;
-    line-height: 39px;
+    .paragraphTitle {
+
+        font-size: 36px;
+        line-height: 39px;
 
     }
 
-    
 
-   
+
+
 }
 
-@media (min-width: 1000px){
-    .decor1{
+@media (min-width: 1000px) {
+    .decor1 {
         top: -5%;
         right: 35%;
-        }
-        .decor2{
-            top: 18%;
-            left: 44%;
-        }
-        .decor3{
-            
-            top: 20%;
-            right: 8%;
-        }
-        .decor4{
-           
-            top: 53%;
-            left: 60%;
-        }
-         .decor5{
-           
-            top: 55%;
-            left: 0px;
-        }
-        .decor6{
-        
-            bottom: 18%;
-            left: 3%;
-        }
-        .decor7{
-            
-            bottom: 0px;
-            left: 190px;
-        }
-        .decor8{
+    }
 
-            bottom: 10px;
-            right: -20px;
-        }
-        .decor9{
-            display: block;
-            position: absolute;
+    .decor2 {
+        top: 18%;
+        left: 44%;
+    }
 
-            top: 0%;
-            right: 0%;
-        }
-        .decor10{
-            display: block;
-            position: absolute;
+    .decor3 {
 
-            top: 5%;
-            left: 0%;
-        }
-       
+        top: 20%;
+        right: 8%;
+    }
+
+    .decor4 {
+
+        top: 53%;
+        left: 60%;
+    }
+
+    .decor5 {
+
+        top: 55%;
+        left: 0px;
+    }
+
+    .decor6 {
+
+        bottom: 18%;
+        left: 3%;
+    }
+
+    .decor7 {
+
+        bottom: 0px;
+        left: 190px;
+    }
+
+    .decor8 {
+
+        bottom: 10px;
+        right: -20px;
+    }
+
+    .decor9 {
+        display: block;
+        position: absolute;
+
+        top: 0%;
+        right: 0%;
+    }
+
+    .decor10 {
+        display: block;
+        position: absolute;
+
+        top: 5%;
+        left: 0%;
+    }
+
 
     .content {
         /* padding: 156px 190px 100px;
          */
-       
+
         display: flex;
         flex-direction: column;
         overflow: hidden;
-        
+
     }
+
     .title {
 
         font-size: 90px;
         line-height: 98px;
     }
 
-    .paragraphTitle{
-        
-    font-size: 40px;
-    line-height: 43px;
+    .paragraphTitle {
+
+        font-size: 40px;
+        line-height: 43px;
 
     }
 
-    .topBlock{
+    .topBlock {
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
         margin: 0px;
     }
- 
-    .topBlockDescription{
+
+    .topBlockDescription {
         max-width: 400px;
     }
-    .topImageWrapper{
+
+    .topImageWrapper {
         width: 62%;
         max-width: 773px;
     }
-    .topBlockImage{
+
+    .topBlockImage {
         top: 0px;
     }
-    .bottomBlock{
+
+    .bottomBlock {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
         margin: 0px;
     }
-    .bottomBlockDescription{
+
+    .bottomBlockDescription {
         max-width: 407px;
     }
-    .bottomImageWrapper{
+
+    .bottomImageWrapper {
         width: 50%;
         max-width: 524px;
     }
@@ -341,30 +344,31 @@ margin-bottom: 24px;
 
 }
 
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
 
-    .content{
-            padding: 156px 120px 100px;
-            
+    .content {
+        padding: 156px 120px 100px;
+
     }
 
-    .topBlockImage{
+    .topBlockImage {
         transform: scale(1.25);
         left: 130px;
-        top:55px;
+        top: 55px;
         /* margin: -40px;
         padding-top: 10px;
         padding-left: 140px; */
-       
+
         max-width: 640px;
         width: 100%;
     }
 
-    .decor2{
+    .decor2 {
         top: 22%;
         left: 47%;
     }
-    .decor11{
+
+    .decor11 {
         display: block;
         position: absolute;
 
