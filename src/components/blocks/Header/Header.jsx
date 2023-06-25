@@ -11,7 +11,7 @@ import BurgerNav from './BurgerNav'
 const Header = (props) => {
 
     return (
-        <header className={styles.container}>
+        <div className={styles.container}>
             <div className={styles.navMobile}>
                 <div>
                     <img src={logo1} alt="#" />
@@ -40,7 +40,7 @@ const Header = (props) => {
                     <Button href={'#contactUs'} buttonText={'Contact us'} />
                 </div>
             </div>
-        </header>
+        </div>
     )
 
 }

@@ -4,7 +4,7 @@ import styles from './Footer.module.css'
 const Footer = (props) => {
 
     return (
-        <footer className={styles.container}>
+        <div className={styles.container}>
             <div className={styles.content}>
                 <div className={styles.logoBlock}>
                     <img className={styles.logoBlockImage} src={footerLogo} alt="#" />
@@ -21,7 +21,7 @@ const Footer = (props) => {
                     <a className={styles.mail} href="mailto:tryon@gmail.com">tryon@gmail.com</a>
                 </div>
             </div>
-        </footer>
+        </div>
     )
 
 }

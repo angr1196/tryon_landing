@@ -6,7 +6,6 @@ import image from '../../../assets/images/image1.png'
 const IntroBlock = () => {
 
     return (
-
         <section id='about' className={styles.container}>
             <div className={styles.bg}>
             </div>

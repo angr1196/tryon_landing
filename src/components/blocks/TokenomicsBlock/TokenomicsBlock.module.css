@@ -112,16 +112,12 @@
 }
 
 .topBlockDescription {
-
     display: flex;
     flex-direction: column;
-
-
 }
 
 
 .paragraphTitle {
-
     font-family: 'Barracuda';
     font-style: normal;
     font-weight: 700;
@@ -131,7 +127,6 @@
     text-align: left;
     color: #37474F;
     margin-bottom: 24px;
-    ;
 }
 
 .topBlockText {
@@ -142,30 +137,20 @@
     line-height: 22px;
     text-align: left;
     color: #546E7A;
-
     margin-bottom: 24px;
 }
 
-/* .topImageWrapper{
-    position: relative;
-} */
 .topBlockImage {
     position: relative;
     left: 80px;
     top: -28px;
-    /* margin: -40px;
-    padding-top: 10px;
-    padding-left: 140px; */
-
     width: 100%;
 }
 
 .bottomBlock {
-
     display: flex;
     flex-direction: column;
 }
-
 
 .bottomBlockDescription {
     width: 100%;
@@ -173,7 +158,6 @@
     flex-direction: column;
     margin-bottom: 34px;
 }
-
 
 .bottomBlockText {
     font-family: 'Mosk';
@@ -196,9 +180,7 @@
 @media (min-width: 769px) {
     .content {
         padding: 85px 68px 135px;
-        /* padding: 85px 18px 135px; */
     }
-
 
     .title {
         max-width: 100%;
@@ -207,14 +189,9 @@
     }
 
     .paragraphTitle {
-
         font-size: 36px;
         line-height: 39px;
-
     }
-
-
-
 
 }
 
