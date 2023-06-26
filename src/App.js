@@ -17,7 +17,7 @@ function App() {
 
   const openHandler = () => {
     document.body.style.overflow = 'hidden';
-      setIsOpen(true);
+    setIsOpen(true);
 
   }
 
@@ -25,22 +25,26 @@ function App() {
     document.body.style.overflow = 'unset'
     setIsOpen(false);
 
-}
+  }
 
 
   return (
     <div className="App">
-      {/* {navIsOpen&&<div className='backdrop'></div>} */}
-      <Header navIsOpen={navIsOpen} onClose={closeHandler} onOpen={openHandler}/>
-      {/* {navIsOpen && <BurgerNav onClose={closeHandler}/>} */}
-      <IntroBlock/>
-      <DescriptionBlock/>
-      <TokenomicsBlock/>
-      <RoadmapBlock/>
-      <ContactUsBlock/>
-      <FaqBlock/>
-      <Footer/>
-    
+      <header>
+        <Header navIsOpen={navIsOpen} onClose={closeHandler} onOpen={openHandler} />
+      </header>
+      <main>
+        <IntroBlock />
+        <DescriptionBlock />
+        <TokenomicsBlock />
+        <RoadmapBlock />
+        <ContactUsBlock />
+        <FaqBlock />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+
     </div>
   );
 }
