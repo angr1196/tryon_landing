@@ -1,7 +1,5 @@
-
 import { useState } from 'react';
 import './App.css';
-import BurgerNav from './components/blocks/Header/BurgerNav';
 import ContactUsBlock from './components/blocks/ContactUsBlock/ContactUsBlock';
 import DescriptionBlock from './components/blocks/DescriptionBlock/DescriptionBlock';
 import Header from './components/blocks/Header/Header';
@@ -18,21 +16,19 @@ function App() {
   const openHandler = () => {
     document.body.style.overflow = 'hidden';
     setIsOpen(true);
-
   }
 
   const closeHandler = () => {
     document.body.style.overflow = 'unset'
     setIsOpen(false);
-
   }
-
 
   return (
     <div className="App">
       <header>
         <Header navIsOpen={navIsOpen} onClose={closeHandler} onOpen={openHandler} />
       </header>
+
       <main>
         <IntroBlock />
         <DescriptionBlock />
@@ -41,10 +37,10 @@ function App() {
         <ContactUsBlock />
         <FaqBlock />
       </main>
+
       <footer>
         <Footer />
       </footer>
-
     </div>
   );
 }

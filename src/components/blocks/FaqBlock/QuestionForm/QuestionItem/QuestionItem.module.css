@@ -22,17 +22,13 @@
     line-height: 21px;
     text-transform: uppercase;
     text-align: left;
-
     color: #37474F;
-
     margin-right: 69px;
-
 
 }
 
 .answer {
     max-width: 716px;
-
     font-family: 'Mosk';
     font-style: normal;
     font-weight: 300;
@@ -40,7 +36,6 @@
     line-height: 22px;
     color: #546E7A;
     text-align: left;
-
     margin-top: 25px;
 }
 

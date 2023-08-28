@@ -1,21 +1,18 @@
+import { memo } from 'react';
 import styles from './RoadmapBlock.module.css'
 import decor1 from '../../../assets/decorations/decor1.png'
 
-
 const RoadmapBlock = () => {
-
 
     return (
         <section id='roadmap' className={styles.container}>
             <div className={styles.content}>
-                <h2 className={styles.title}>
-                    roadmap
-                </h2>
+                <h2 className={styles.title}>roadmap</h2>
+
                 <div className={styles.periodBlock}>
                     <div className={styles.periodItem}>
-                        <div className={styles.periodTitle}>
-                            q1 2023
-                        </div>
+                        <div className={styles.periodTitle}>q1 2023</div>
+
                         <ul className={styles.periodList}>
                             <li>Early investment stageCore platform</li>
                             <li>Architecture Development</li>
@@ -23,20 +20,20 @@ const RoadmapBlock = () => {
                             <li>Test ecosystem</li>
                         </ul>
                     </div>
+
                     <div className={styles.periodItem}>
-                        <div className={styles.periodTitle}>
-                            q2 2023
-                        </div>
+                        <div className={styles.periodTitle}>q2 2023</div>
+
                         <ul className={styles.periodList}>
                             <li>Testnet MVP Preparation</li>
                             <li>FMT Strategic sale</li>
                             <li>Business development strategy</li>
                         </ul>
                     </div>
+
                     <div className={styles.periodItem}>
-                        <div className={styles.periodTitle}>
-                            q3 2023
-                        </div>
+                        <div className={styles.periodTitle}>q3 2023</div>
+
                         <ul className={styles.periodList}>
                             <li>Load/Penetration testing</li>
                             <li>Testnet tuning/development</li>
@@ -45,10 +42,10 @@ const RoadmapBlock = () => {
                             <li>Brand integration</li>
                         </ul>
                     </div>
+
                     <div className={styles.periodItem}>
-                        <div className={styles.periodTitle}>
-                            q4 2023
-                        </div>
+                        <div className={styles.periodTitle}>q4 2023</div>
+
                         <ul className={styles.periodList}>
                             <li>Market rollout preparation</li>
                             <li>Offline marketing campaigns</li>
@@ -58,10 +55,10 @@ const RoadmapBlock = () => {
                 </div>
                 <div className={styles.rmLineBlock}>
                     <div>
-                        <img className={styles.rmZebra} src={decor1} alt="#" />
+                        <img className={styles.rmZebra} src={decor1} alt="decoration" />
                     </div>
-                    <div className={styles.rmLine}>
-                    </div>
+
+                    <div className={styles.rmLine} />
                 </div>
             </div>
         </section>
@@ -69,4 +66,4 @@ const RoadmapBlock = () => {
 
 }
 
-export default RoadmapBlock;
+export default memo(RoadmapBlock);

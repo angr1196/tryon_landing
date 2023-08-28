@@ -43,7 +43,7 @@
 .decor5 {
     position: absolute;
     top: 45%;
-    left: 0px;
+    left: 0;
 }
 
 .decor6 {
@@ -54,14 +54,14 @@
 
 .decor7 {
     position: absolute;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
 }
 
 .decor8 {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
 }
 
 .decor9 {
@@ -77,28 +77,24 @@
 }
 
 .content {
-
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     padding: 85px 18px 100px;
-
     flex-direction: column;
     overflow: hidden;
 }
 
 .title {
     text-align: center;
-    margin: 0px auto;
-
+    margin: 0 auto;
     font-family: 'Barracuda';
     font-style: normal;
     font-weight: 400;
     font-size: 55px;
     line-height: 59.62px;
     text-transform: uppercase;
-
     color: #37474F;
 }
 
@@ -115,7 +111,6 @@
     display: flex;
     flex-direction: column;
 }
-
 
 .paragraphTitle {
     font-family: 'Barracuda';
@@ -167,7 +162,6 @@
     line-height: 22px;
     text-align: left;
     color: #546E7A;
-
     margin-bottom: 24px;
 }
 
@@ -207,37 +201,31 @@
     }
 
     .decor3 {
-
         top: 20%;
         right: 8%;
     }
 
     .decor4 {
-
         top: 53%;
         left: 60%;
     }
 
     .decor5 {
-
         top: 55%;
-        left: 0px;
+        left: 0;
     }
 
     .decor6 {
-
         bottom: 18%;
         left: 3%;
     }
 
     .decor7 {
-
-        bottom: 0px;
+        bottom: 0;
         left: 190px;
     }
 
     .decor8 {
-
         bottom: 10px;
         right: -20px;
     }
@@ -245,38 +233,30 @@
     .decor9 {
         display: block;
         position: absolute;
-
-        top: 0%;
-        right: 0%;
+        top: 0;
+        right: 0;
     }
 
     .decor10 {
         display: block;
         position: absolute;
-
         top: 5%;
-        left: 0%;
+        left: 0;
     }
 
 
     .content {
-        /* padding: 156px 190px 100px;
-         */
-
         display: flex;
         flex-direction: column;
         overflow: hidden;
-
     }
 
     .title {
-
         font-size: 90px;
         line-height: 98px;
     }
 
     .paragraphTitle {
-
         font-size: 40px;
         line-height: 43px;
 
@@ -286,7 +266,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin: 0px;
+        margin: 0;
     }
 
     .topBlockDescription {
@@ -299,14 +279,14 @@
     }
 
     .topBlockImage {
-        top: 0px;
+        top: 0;
     }
 
     .bottomBlock {
         flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
-        margin: 0px;
+        margin: 0;
     }
 
     .bottomBlockDescription {
@@ -318,24 +298,18 @@
         max-width: 524px;
     }
 
-
 }
 
 @media (min-width: 1200px) {
 
     .content {
         padding: 156px 120px 100px;
-
     }
 
     .topBlockImage {
         transform: scale(1.25);
         left: 130px;
         top: 55px;
-        /* margin: -40px;
-        padding-top: 10px;
-        padding-left: 140px; */
-
         max-width: 640px;
         width: 100%;
     }
@@ -350,7 +324,7 @@
         position: absolute;
 
         top: 26%;
-        right: 0%;
+        right: 0;
     }
 
 }

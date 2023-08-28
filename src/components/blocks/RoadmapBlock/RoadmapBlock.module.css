@@ -13,7 +13,6 @@
 .content {
     overflow-x: auto;
     white-space: nowrap;
-
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -30,9 +29,7 @@
     font-size: 55px;
     line-height: 60px;
     text-transform: uppercase;
-
     color: #FFFFFF;
-
     margin-bottom: 60px;
 }
 
@@ -50,7 +47,7 @@
 }
 
 .periodItem:nth-last-child(1) {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .periodTitle {
@@ -60,20 +57,17 @@
     font-size: 40px;
     line-height: 43px;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
 .periodList {
     margin-left: -15px;
     margin-top: 20px;
-
     font-family: 'Mosk';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
-
     color: #FAFAFA;
 }
 

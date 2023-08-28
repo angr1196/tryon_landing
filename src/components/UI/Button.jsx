@@ -1,17 +1,14 @@
 import styles from './Button.module.css'
 
-const Button = (props) => {
+const Button = ({color, href, onClick, children}) => {
 
     return (
         <div >
-            <a className={props.color === 'white' ? styles.btnWhite : styles.btn} href={props.href} 
-            onClick={props.onClick}>
-                {props.buttonText}
+            <a className={color === 'white' ? styles.btnWhite : styles.btn} href={href} 
+            onClick={onClick}>
+                {children}
             </a>
-
         </div>
-
-
     )
 };
 

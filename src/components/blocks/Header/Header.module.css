@@ -2,7 +2,7 @@
     background-color: #FFFFFF;
     border-bottom: 1px solid #B0BEC5;
     position: sticky;
-    top: 0px;
+    top: 0;
     z-index: 6;
 }
 
@@ -15,7 +15,6 @@
     width: 100%;
     height: 100%;
     z-index: 20;
-
     background-color: rgba(55, 71, 79, 0.75);
     overflow: hidden;
 }
@@ -39,14 +38,14 @@
 
 .navDesktop {
     max-width: 1200px;
-    margin: 0px auto;
+    margin: 0 auto;
     justify-content: space-between;
     padding: 16px 68px;
     align-items: center;
     display: none;
 }
 
-.navbar-items {
+.navbarItems {
     display: flex;
 }
 
@@ -57,13 +56,12 @@
     font-weight: 500;
     font-size: 16px;
     margin-right: 32px;
-
     position: relative;
 
 }
 
 .item:nth-last-child(1) {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .item:hover::after {
@@ -102,15 +100,11 @@
     background: none;
     padding: 0;
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
-
     height: 45px;
     width: 130px;
-
     background: #17A08E;
     border-radius: 8px;
     font-family: 'Mosk', sans-serif;

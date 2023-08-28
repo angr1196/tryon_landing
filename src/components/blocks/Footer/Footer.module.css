@@ -2,7 +2,7 @@
     border-top: 1px solid #81D4FA;
     background: #37474F;
     display: flex;
-    ;
+    
 }
 
 .content {
@@ -26,7 +26,6 @@
     font-size: 14px;
     line-height: 17px;
     color: #F2F2F2;
-
     opacity: 0.5;
 }
 
@@ -36,9 +35,7 @@
 
 .refBlock a {
     display: block;
-
     text-decoration: none;
-
     font-family: 'Mosk';
     font-style: normal;
     font-weight: 500;
@@ -57,7 +54,6 @@
 
 .mail::before {
     content: url("../../../assets/decorations/mailIcon.png");
-
     position: relative;
     top: 2px;
     right: 11px;
@@ -65,9 +61,7 @@
 
 .contactsBlock a {
     display: block;
-
     text-decoration: none;
-
     font-family: 'Mosk';
     font-style: normal;
     font-weight: 200;
@@ -79,7 +73,7 @@
 }
 
 .contactsBlock a:nth-last-child(1) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .refBlock {
@@ -96,22 +90,22 @@
     }
 
     .logoBlock {
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .refBlock {
-        margin-bottom: 0px;
+        margin-bottom: 0;
 
     }
 
     .refBlock a {
         display: inline;
-        margin-bottom: 0px;
+        margin-bottom: 0;
         margin-right: 24px;
     }
 
     .refBlock a:nth-last-child(1) {
-        margin-right: 0px;
+        margin-right: 0;
     }
 
 }

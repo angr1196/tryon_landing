@@ -1,20 +1,12 @@
-
-    
-/* .btnWrapper {
-    text-decoration: none;
-} */
-
 .btn{
     border: none;
     background: none;
     padding: 0;
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
     
-
     height: 45px;
     width: 130px;
  

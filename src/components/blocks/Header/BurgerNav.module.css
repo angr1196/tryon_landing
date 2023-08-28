@@ -1,14 +1,10 @@
 .wrapp {
     background-color: #FFFFFF;
-
     position: absolute;
     top: 23px;
     right: 18px;
-
     width: 215px;
     display: flex;
-
-    /* padding: 29px 43px;  */
     z-index: 30;
     animation: slide-down 300ms ease-out forwards;
 }
@@ -34,8 +30,6 @@
     all: initial;
 }
 
-
-
 .navBlock {
     display: flex;
     flex-direction: column;
@@ -51,7 +45,6 @@
     font-size: 16px;
     line-height: 19px;
     color: #37474F;
-
     margin-bottom: 32px;
 }
 

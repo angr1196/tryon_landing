@@ -5,7 +5,6 @@
         url('../../../assets/decorations/description3.png');
     background-position: 100% 97%, 0% 93%, 91% 40%;
     background-repeat: no-repeat, no-repeat, no-repeat;
-
     display: flex;
 }
 
@@ -46,7 +45,6 @@
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: left;
-
     margin-bottom: 24px;
 }
 
@@ -65,14 +63,11 @@
     background: none;
     padding: 0;
     cursor: pointer;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     height: 45px;
     width: 130px;
-
     background: #17A08E;
     border-radius: 8px;
     font-family: 'Mosk', sans-serif;
@@ -83,7 +78,6 @@
     text-decoration: none;
     color: #FAFAFA;
 }
-
 
 @media (min-width: 768px) {
     .content {
@@ -129,7 +123,7 @@
 
     .description {
         max-width: 48.6%;
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     .descriptionTitle {
